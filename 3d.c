@@ -23,7 +23,7 @@ void drawTriangle()
 gboolean
 three_d_init (SDL_Window *win)
 {
-	gboolean success = true;
+	gboolean success = FALSE;
 	
 	if (SDL_Init (SDL) < 0)
 	{
